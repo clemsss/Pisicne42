@@ -6,7 +6,7 @@
 /*   By: clgirard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/19 15:30:10 by clgirard          #+#    #+#             */
-/*   Updated: 2016/08/24 18:35:54 by clgirard         ###   ########.fr       */
+/*   Updated: 2016/08/25 16:51:44 by clgirard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 
 typedef struct		s_stock_par
 {
-	int				size_params;
+	int				size_param;
 	char			*str;
 	char			*copy;
 	char			**tab;

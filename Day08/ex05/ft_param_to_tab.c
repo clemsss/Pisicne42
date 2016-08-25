@@ -6,7 +6,7 @@
 /*   By: clgirard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/19 15:21:23 by clgirard          #+#    #+#             */
-/*   Updated: 2016/08/24 18:38:41 by clgirard         ###   ########.fr       */
+/*   Updated: 2016/08/25 16:52:31 by clgirard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,7 +57,7 @@ struct s_stock_par	*ft_param_to_tab(int ac, char **av)
 	i = 0;
 	while (i < ac)
 	{
-		s[i].size_params = ft_strlen(av[i]);
+		s[i].size_param = ft_strlen(av[i]);
 		s[i].str = NULL;
 		s[i].str = av[i];
 		s[i].copy = NULL;

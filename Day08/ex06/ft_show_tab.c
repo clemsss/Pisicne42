@@ -6,7 +6,7 @@
 /*   By: clgirard <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/08/19 15:34:37 by clgirard          #+#    #+#             */
-/*   Updated: 2016/08/24 18:35:06 by clgirard         ###   ########.fr       */
+/*   Updated: 2016/08/25 16:52:21 by clgirard         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,7 @@ void	ft_show_tab(struct s_stock_par *par)
 	{
 		ft_putstr(par[i].copy);
 		ft_putchar('\n');
-		ft_putnbr(par[i].size_params);
+		ft_putnbr(par[i].size_param);
 		ft_putchar('\n');
 		ft_print_words_tables(par[i].tab);
 		i++;
